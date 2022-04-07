@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D435285F27FF2E1F0002C1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435285E27FF2E1F0002C1A3 /* AppDelegate.swift */; };
+		D435286127FF2E1F0002C1A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435286027FF2E1F0002C1A3 /* SceneDelegate.swift */; };
+		D435286327FF2E1F0002C1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435286227FF2E1F0002C1A3 /* ViewController.swift */; };
+		D435286627FF2E1F0002C1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D435286427FF2E1F0002C1A3 /* Main.storyboard */; };
+		D435286827FF2E200002C1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D435286727FF2E200002C1A3 /* Assets.xcassets */; };
+		D435286B27FF2E200002C1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D435286927FF2E200002C1A3 /* LaunchScreen.storyboard */; };
+		D435287627FF2E200002C1A3 /* Mantha_DiceGame2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435287527FF2E200002C1A3 /* Mantha_DiceGame2Tests.swift */; };
+		D435288027FF2E200002C1A3 /* Mantha_DiceGame2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435287F27FF2E200002C1A3 /* Mantha_DiceGame2UITests.swift */; };
+		D435288227FF2E200002C1A3 /* Mantha_DiceGame2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435288127FF2E200002C1A3 /* Mantha_DiceGame2UITestsLaunchTests.swift */; };
+		D435289127FF31ED0002C1A3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435289027FF31ED0002C1A3 /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D435287227FF2E200002C1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435285327FF2E1F0002C1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D435285A27FF2E1F0002C1A3;
+			remoteInfo = Mantha_DiceGame2;
+		};
+		D435287C27FF2E200002C1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435285327FF2E1F0002C1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D435285A27FF2E1F0002C1A3;
+			remoteInfo = Mantha_DiceGame2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D435285B27FF2E1F0002C1A3 /* Mantha_DiceGame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantha_DiceGame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435285E27FF2E1F0002C1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D435286027FF2E1F0002C1A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D435286227FF2E1F0002C1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D435286527FF2E1F0002C1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D435286727FF2E200002C1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D435286A27FF2E200002C1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D435286C27FF2E200002C1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D435287127FF2E200002C1A3 /* Mantha_DiceGame2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mantha_DiceGame2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435287527FF2E200002C1A3 /* Mantha_DiceGame2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mantha_DiceGame2Tests.swift; sourceTree = "<group>"; };
+		D435287B27FF2E200002C1A3 /* Mantha_DiceGame2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mantha_DiceGame2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435287F27FF2E200002C1A3 /* Mantha_DiceGame2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mantha_DiceGame2UITests.swift; sourceTree = "<group>"; };
+		D435288127FF2E200002C1A3 /* Mantha_DiceGame2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mantha_DiceGame2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D435289027FF31ED0002C1A3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D435285827FF2E1F0002C1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435286E27FF2E200002C1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435287827FF2E200002C1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D435285227FF2E1F0002C1A3 = {
+			isa = PBXGroup;
+			children = (
+				D435285D27FF2E1F0002C1A3 /* Mantha_DiceGame2 */,
+				D435287427FF2E200002C1A3 /* Mantha_DiceGame2Tests */,
+				D435287E27FF2E200002C1A3 /* Mantha_DiceGame2UITests */,
+				D435285C27FF2E1F0002C1A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D435285C27FF2E1F0002C1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D435285B27FF2E1F0002C1A3 /* Mantha_DiceGame2.app */,
+				D435287127FF2E200002C1A3 /* Mantha_DiceGame2Tests.xctest */,
+				D435287B27FF2E200002C1A3 /* Mantha_DiceGame2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D435285D27FF2E1F0002C1A3 /* Mantha_DiceGame2 */ = {
+			isa = PBXGroup;
+			children = (
+				D435285E27FF2E1F0002C1A3 /* AppDelegate.swift */,
+				D435286027FF2E1F0002C1A3 /* SceneDelegate.swift */,
+				D435286227FF2E1F0002C1A3 /* ViewController.swift */,
+				D435286427FF2E1F0002C1A3 /* Main.storyboard */,
+				D435286727FF2E200002C1A3 /* Assets.xcassets */,
+				D435286927FF2E200002C1A3 /* LaunchScreen.storyboard */,
+				D435286C27FF2E200002C1A3 /* Info.plist */,
+				D435289027FF31ED0002C1A3 /* GameViewController.swift */,
+			);
+			path = Mantha_DiceGame2;
+			sourceTree = "<group>";
+		};
+		D435287427FF2E200002C1A3 /* Mantha_DiceGame2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D435287527FF2E200002C1A3 /* Mantha_DiceGame2Tests.swift */,
+			);
+			path = Mantha_DiceGame2Tests;
+			sourceTree = "<group>";
+		};
+		D435287E27FF2E200002C1A3 /* Mantha_DiceGame2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D435287F27FF2E200002C1A3 /* Mantha_DiceGame2UITests.swift */,
+				D435288127FF2E200002C1A3 /* Mantha_DiceGame2UITestsLaunchTests.swift */,
+			);
+			path = Mantha_DiceGame2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D435285A27FF2E1F0002C1A3 /* Mantha_DiceGame2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435288527FF2E200002C1A3 /* Build configuration list for PBXNativeTarget "Mantha_DiceGame2" */;
+			buildPhases = (
+				D435285727FF2E1F0002C1A3 /* Sources */,
+				D435285827FF2E1F0002C1A3 /* Frameworks */,
+				D435285927FF2E1F0002C1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mantha_DiceGame2;
+			productName = Mantha_DiceGame2;
+			productReference = D435285B27FF2E1F0002C1A3 /* Mantha_DiceGame2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D435287027FF2E200002C1A3 /* Mantha_DiceGame2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435288827FF2E200002C1A3 /* Build configuration list for PBXNativeTarget "Mantha_DiceGame2Tests" */;
+			buildPhases = (
+				D435286D27FF2E200002C1A3 /* Sources */,
+				D435286E27FF2E200002C1A3 /* Frameworks */,
+				D435286F27FF2E200002C1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D435287327FF2E200002C1A3 /* PBXTargetDependency */,
+			);
+			name = Mantha_DiceGame2Tests;
+			productName = Mantha_DiceGame2Tests;
+			productReference = D435287127FF2E200002C1A3 /* Mantha_DiceGame2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D435287A27FF2E200002C1A3 /* Mantha_DiceGame2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435288B27FF2E200002C1A3 /* Build configuration list for PBXNativeTarget "Mantha_DiceGame2UITests" */;
+			buildPhases = (
+				D435287727FF2E200002C1A3 /* Sources */,
+				D435287827FF2E200002C1A3 /* Frameworks */,
+				D435287927FF2E200002C1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D435287D27FF2E200002C1A3 /* PBXTargetDependency */,
+			);
+			name = Mantha_DiceGame2UITests;
+			productName = Mantha_DiceGame2UITests;
+			productReference = D435287B27FF2E200002C1A3 /* Mantha_DiceGame2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D435285327FF2E1F0002C1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D435285A27FF2E1F0002C1A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D435287027FF2E200002C1A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D435285A27FF2E1F0002C1A3;
+					};
+					D435287A27FF2E200002C1A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D435285A27FF2E1F0002C1A3;
+					};
+				};
+			};
+			buildConfigurationList = D435285627FF2E1F0002C1A3 /* Build configuration list for PBXProject "Mantha_DiceGame2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D435285227FF2E1F0002C1A3;
+			productRefGroup = D435285C27FF2E1F0002C1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D435285A27FF2E1F0002C1A3 /* Mantha_DiceGame2 */,
+				D435287027FF2E200002C1A3 /* Mantha_DiceGame2Tests */,
+				D435287A27FF2E200002C1A3 /* Mantha_DiceGame2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D435285927FF2E1F0002C1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435286B27FF2E200002C1A3 /* LaunchScreen.storyboard in Resources */,
+				D435286827FF2E200002C1A3 /* Assets.xcassets in Resources */,
+				D435286627FF2E1F0002C1A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435286F27FF2E200002C1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435287927FF2E200002C1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D435285727FF2E1F0002C1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435289127FF31ED0002C1A3 /* GameViewController.swift in Sources */,
+				D435286327FF2E1F0002C1A3 /* ViewController.swift in Sources */,
+				D435285F27FF2E1F0002C1A3 /* AppDelegate.swift in Sources */,
+				D435286127FF2E1F0002C1A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435286D27FF2E200002C1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435287627FF2E200002C1A3 /* Mantha_DiceGame2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435287727FF2E200002C1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435288027FF2E200002C1A3 /* Mantha_DiceGame2UITests.swift in Sources */,
+				D435288227FF2E200002C1A3 /* Mantha_DiceGame2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D435287327FF2E200002C1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D435285A27FF2E1F0002C1A3 /* Mantha_DiceGame2 */;
+			targetProxy = D435287227FF2E200002C1A3 /* PBXContainerItemProxy */;
+		};
+		D435287D27FF2E200002C1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D435285A27FF2E1F0002C1A3 /* Mantha_DiceGame2 */;
+			targetProxy = D435287C27FF2E200002C1A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D435286427FF2E1F0002C1A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D435286527FF2E1F0002C1A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D435286927FF2E200002C1A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D435286A27FF2E200002C1A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D435288327FF2E200002C1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D435288427FF2E200002C1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D435288627FF2E200002C1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mantha_DiceGame2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mantha_Dicegame2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-DiceGame2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D435288727FF2E200002C1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mantha_DiceGame2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mantha_Dicegame2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-DiceGame2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D435288927FF2E200002C1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-DiceGame2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mantha_DiceGame2.app/Mantha_DiceGame2";
+			};
+			name = Debug;
+		};
+		D435288A27FF2E200002C1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-DiceGame2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mantha_DiceGame2.app/Mantha_DiceGame2";
+			};
+			name = Release;
+		};
+		D435288C27FF2E200002C1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-DiceGame2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mantha_DiceGame2;
+			};
+			name = Debug;
+		};
+		D435288D27FF2E200002C1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-DiceGame2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mantha_DiceGame2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D435285627FF2E1F0002C1A3 /* Build configuration list for PBXProject "Mantha_DiceGame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435288327FF2E200002C1A3 /* Debug */,
+				D435288427FF2E200002C1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435288527FF2E200002C1A3 /* Build configuration list for PBXNativeTarget "Mantha_DiceGame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435288627FF2E200002C1A3 /* Debug */,
+				D435288727FF2E200002C1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435288827FF2E200002C1A3 /* Build configuration list for PBXNativeTarget "Mantha_DiceGame2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435288927FF2E200002C1A3 /* Debug */,
+				D435288A27FF2E200002C1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435288B27FF2E200002C1A3 /* Build configuration list for PBXNativeTarget "Mantha_DiceGame2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435288C27FF2E200002C1A3 /* Debug */,
+				D435288D27FF2E200002C1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D435285327FF2E1F0002C1A3 /* Project object */;
+}
